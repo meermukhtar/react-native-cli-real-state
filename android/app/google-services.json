@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066168762245",
+    "project_id": "reactapp-852aa",
+    "storage_bucket": "reactapp-852aa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066168762245:android:83415670b934aaddd9ceec",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066168762245-lqkp9vh3rvma63tjb6a9ljf3mbfev9gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYHgBq9qnYX4tf0gzzsWBXuBZgML-FpHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066168762245-ijotjbiiipkreqcrhm6242vpq32lqhoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

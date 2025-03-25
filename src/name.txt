@@ -1,0 +1,81 @@
+ {/* <View className="flex-row items-center w-full">
+            <Text className="text-xl font-semibold text-black">Age:</Text>
+            <View className="flex-row w-full  items-center mt-2">
+            <Slider 
+              style={ {width: width * 0.67, height: 40}}
+              minimumValue={0}
+              maximumValue={100}
+              minimumTrackTintColor="#191970"
+              maximumTrackTintColor="#808000"
+              value={sliderValue} // Initial value
+              onValueChange={value => setSliderValue(value)} // Update state on change
+            />
+            <Text className="text-black font-semibold">{sliderValue.toFixed(0)}</Text>
+          </View>
+          </View> */}
+
+
+
+          {/* <View className="flex-col justify-start">
+            <Text className="text-black font-semibold text-xl">Disability year</Text>
+
+            <View className="flex-row justify-between items-center mr-5">
+            <MultiSlider
+              values={range}
+              min={0}
+              max={100}
+              step={1}
+              onValuesChange={setRange} // This updates the state
+              sliderLength={250} // Adjust length
+              selectedStyle={{backgroundColor: 'green'}}
+              unselectedStyle={{backgroundColor: 'gray'}}
+              markerStyle={{
+                backgroundColor: 'red',
+                height: 20,
+                width: 20,
+              }}
+            />
+            {/* Display selected range values */}
+            {/* <Text className="text-black font-semibold ml-5">
+              {range[0]} - {range[1]}
+            </Text>
+          </View> */}
+          {/* </View> */} 
+
+
+
+          
+          {/* <BottomSheet 
+            visible={visible}
+            onBackButtonPress={toggle}
+            onBackdropPress={toggle}>
+            <View className="bg-slate-200 h-36 rounded-tl-xl rounded-tr-xl ">
+              <View className="flex-col w-full p-3">
+                <TouchableOpacity onPress={launchNativeCamera}>
+                  <View className="flex-row  content-center items-center m-2">
+                    <Icon name="camera" size={30} color="#000" />
+                    <Text className="ml-5 text-black font-semibold text-xl">
+                      Select Camera
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={launchNativeImageLibrary}>
+                  <View className="flex-row  content-center items-center m-2">
+                    <Icon name="photo-library" size={30} color="#000" />
+                    <Text className="ml-5 text-black font-semibold text-xl">
+                      Select Gallery
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </BottomSheet> */}
+
+          {/* <DateRangePicker
+            initialRange={['2018-04-01', '2018-04-10']}
+            onSuccess={(s, e) => alert(s + '||' + e)}
+            theme={{markColor: 'red', markTextColor: 'white'}}
+          /> */}
+
+
+
